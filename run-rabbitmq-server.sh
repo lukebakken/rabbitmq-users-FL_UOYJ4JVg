@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 readonly curdir="$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)"
 readonly rabbitmq_version='3.11.9'
